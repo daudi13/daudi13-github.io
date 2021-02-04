@@ -143,6 +143,7 @@ h3 { font-size: var(--fs-h3);}
     font-family:var(--ff-secondary);
     margin-bottom: 1em;
     padding: .6em 1em;
+    border-radius: 7px;
 }
 
 .section__subtitle--work{
@@ -347,6 +348,7 @@ nav {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 0 0 12px 12pxgit;
 }
 
 .section__subtitle--intro{
