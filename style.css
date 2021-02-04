@@ -82,7 +82,7 @@ html {
 /* buttons */
 
 #logo {
-    width: 85px;
+    width: 65px;
 }
 
 .btn {
@@ -397,6 +397,10 @@ nav {
     text-align: center ;
 }
 
+.service h3 {
+    text-align: center;
+}
+
 
 
 .service {
@@ -429,6 +433,7 @@ nav {
 
     .services {
     margin-bottom: 4em;
+    text-align: justify;
     }
     .service + .service {
         margin-left: 2em;
@@ -442,6 +447,7 @@ nav {
 
 .about-me__img{
     box-shadow: var(--bs);
+    border-radius: 12px;
 }
 
 @media (min-width:600px) {
@@ -503,10 +509,7 @@ nav {
     margin-left: 0;
 }
 .portfolio__item {
-    transition:
-    transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear
-    ;
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
 }
 
 .portfolio__item :focus{
