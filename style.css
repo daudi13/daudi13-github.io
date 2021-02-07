@@ -56,6 +56,27 @@ body {
     position: relative;
 }
 
+.top {
+    position: fixed;
+    border-radius: 8px;
+    bottom: 5px;
+    right: 10px;
+    box-shadow: var(--bs);
+    padding: 5px;
+    z-index: 1000;
+}
+
+
+.top a:focus {
+    display: none;
+}
+
+.top a {
+    text-decoration: none;
+    color: var(--clr-accent);
+    font-size: 25px;
+}
+
 
 
 @media only screen and (min-width: 768px) {
@@ -83,22 +104,7 @@ body {
 }
 
 
-.top {
-    position: fixed;
-    border-radius: 8px;
-    bottom: 0;
-    right: 0;
-}
 
-.top a:focus {
-    display: none;
-}
-
-.top a {
-    text-decoration: none;
-    color: var(--clr-accent);
-    font-size: 25px;
-}
 
 img {
     display: block;
