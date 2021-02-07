@@ -62,7 +62,7 @@ body {
     body {
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
+        animation: gradient 10s ease infinite;
     }
 
     /* background animation setup */
@@ -655,4 +655,30 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 
 .social-list__item {
     padding: 0 .7em;
+}
+
+/* scrollbar */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/*  track*/
+
+::-webkit-scrollbar-track {
+    background: inherit;
+}
+
+/* background */
+
+::-webkit-scrollbar-corner {
+    border-radius: 5px;
+}
+
+/* handle */ 
+::-webkit-scrollbar-thumb {
+    background: #303030;
+    border-radius: 4px;
 }
