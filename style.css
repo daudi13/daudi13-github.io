@@ -553,6 +553,10 @@ nav {
         z-index: 2;
     } 
 
+    .about-me__body p {
+        color: #fff;
+    }
+
 }
 
 /* My work */
