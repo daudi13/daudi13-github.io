@@ -5,3 +5,44 @@
 *::after {
     box-sizing: border-box;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+strong {
+    font-weight: weight(fw-bold);
+}
+
+:focus {
+    outline: 3px solid colors(clr-accent);
+    outline-offset: 3px;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// buttons 
+
+#logo {
+    width: 65px;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 1.5em;
+    background-color: colors(clr-accent);
+    color: colors(clr-dark);
+    text-decoration: none;
+}

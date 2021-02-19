@@ -22,9 +22,24 @@ $font-size:(
     "fs-body": 1rem
 );
 
-$font-family:(
-    "ff-family"
+@media (min-width: 800px) {
+    $font-size:(
+    "fs-h1" : 4.5rem,
+    "fs-h2" : 2.75rem,
+    "fs-h3" : 1.5rem,
+    "fs-body": 1rem
 );
+}
+
+
+$font-family:(
+    "ff-family": 'Source Sans Pro', sans-serif,
+    "ff-secondary": 'Source Code Pro', monospace
+);
+
+@function family($family-name) {
+    @return map-get($font-family , $family-name );
+}
 
 @function weight($weight-name) {
     @return map-get($font-weight, $weight-name );
@@ -36,4 +51,19 @@ $font-family:(
 
 @function sizes($size-name) {
     @return map-get($font-size, $size-name )
+}
+
+$breakpoints :(
+    'large' : 800px,
+    'small': 768px,
+
+);
+
+
+@mixin responsive($display) {
+    $breakpoints: map-get($breakpoints , $display );
+
+    @media screen and (min-width: $breakpoints) {
+        @content 
+    }
 }

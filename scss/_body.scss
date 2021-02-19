@@ -3,4 +3,58 @@
     background: colors(clr-light);
     color: colors(clr-dark);
     margin: 0;
+    font-family: family(ff-primary);
+    font-size: size(fs-body);
+    line-height: 1.6;
+    outline: none;
+    background-image: url('../gradient-white-blue-linear-1920x1080-c2-faebd7-e0ffff-a-165-f-14.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    position: relative;
+
+}
+
+.top {
+    position: fixed;
+    border-radius: 8px;
+    bottom: 5px;
+    right: 10px;
+    box-shadow: $bs;
+    padding: 5px;
+    z-index: 1000;
+
+    a:focus {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: colors(clr-accent);
+        font-size: 25px;
+    }
+}
+
+@include responsive(small) {
+    background: colors(clr-accent-1);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+
+/* background ankmation setup*/
+
+@keyframes gradient {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
