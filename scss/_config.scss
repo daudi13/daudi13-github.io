@@ -1,4 +1,4 @@
-// reset 
+// resets
 
 *,
 *::before,
@@ -45,4 +45,61 @@ html {
     background-color: colors(clr-accent);
     color: colors(clr-dark);
     text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+// typography
+
+h1, h2, h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 { font-size: size(fs-h1);}
+h2 { font-size: size(fs-h2);}
+h3 { font-size: size(fs-h3);}
+
+.section__title {
+    margin-bottom: 0;
+}
+
+.section_title--intro {
+    font-weight: weight(fw-reg);
+}
+
+.section_title--intro strong {
+    display: block;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: size(fs-h3);
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: colors(clr-accent);
+    font-family: family(ff-secondary);
+    margin-bottom: 1em;
+    padding: .6em 1em;
+    border-radius: 7px;
+    box-shadow: $bs;
+}
+
+.section__subtitle--work {
+    color: colors(clr-accent);
+    font-family: family(ff-secondary);
+    font-weight: weight(fw-bold);
+    margin-bottom: 1em;
+}
+
+.intro p {
+    margin-bottom: 10px;
+}
+
+.intro h1 {
+    padding-bottom: 0;
 }
