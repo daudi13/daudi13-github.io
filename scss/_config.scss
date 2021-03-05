@@ -45,11 +45,18 @@ html {
     background-color: colors(clr-accent);
     color: colors(clr-dark);
     text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: weight(fw-bold);
+    transition: 200ms ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
-.btn:hover {
-    transform: scale(1.1);
-}
 
 // typography
 

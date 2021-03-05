@@ -54,6 +54,7 @@ $font-family:(
 }
 
 $breakpoints :(
+    'xtra-large': 950px,
     'large' : 800px,
     'small': 768px,
 
@@ -65,6 +66,10 @@ $breakpoints :(
 
     @media screen and (min-width: $breakpoints) {
         @content 
-    }
+    };
 }
 
+@mixin flex-justify {
+    display: flex;
+    justify-content: space-between;
+}
