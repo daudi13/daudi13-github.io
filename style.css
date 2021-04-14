@@ -225,6 +225,13 @@ h3 { font-size: var(--fs-h3);}
 /* the Navigation bar */
 
 header {
+    padding: 0.8em;
+}
+
+
+
+@media only screen and (min-width: 900px){
+    header {
     padding: 0.2em;
     display: flex;
     justify-content: space-between;
@@ -235,7 +242,7 @@ header {
     right: 0;
     z-index: 1000;
     align-items: center;
-    border-bottom: 1px solid b
+}
 }
 
 header nav {
@@ -487,8 +494,8 @@ nav {
         height: 30px;
         background: transparent;
         position: fixed;
-        right: 50px;
-        top: 50px;
+        right: 0.9em;
+        top: 0.8em;
         cursor: pointer;
         display: flex;
         flex-direction: column;
@@ -500,6 +507,7 @@ nav {
         width: 350px;
         height: 100%;
         background: #262626;
+        opacity: 0.95;
         position:fixed;
         top: 0;
         right: 0;
@@ -508,6 +516,46 @@ nav {
         justify-content: center;
         align-items: center;
         transition: right 0.8s cubic-bezier(0.6, 0, 0, 1);
+        z-index: 1000;
+    }
+
+    header .nav__list {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 80%;
+    }
+
+    li .nav__link {
+        color: #fff!important;
+        position: relative;
+    }
+
+    .nav__link::after,
+    .nav__link::before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        height: 1px;
+        background: tomato;
+        left: 0;
+        transform: scaleX(0);
+        transition: transform 0.5s;
+    }
+
+    .nav__link::after {
+        bottom: 0;
+        transform-origin: left;
+    }
+
+    .nav__link::before {
+        top: 0;
+        transform-origin: right;
+    }
+
+    .nav__link:hover::after,
+    .nav__link:hover::before{
+        transform: scaleX(1);
+
     }
 
     div.line {
