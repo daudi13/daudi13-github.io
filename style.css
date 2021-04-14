@@ -269,7 +269,7 @@ header .nav__list {
 @media only screen and (max-width:900px) {
     div.hamburger-menu {
         width: 35px;
-        height: 30px;
+        height: 25px;
         background: transparent;
         position: fixed;
         right: 0.9em;
@@ -302,15 +302,16 @@ header .nav__list {
     }
 
     .active .one{
-        transform: rotateZ(-45deg) translate(-8px, 6px);
-        background: tomato;
+        transform: rotateZ(-45deg) translate(-5px, 6px);
+        background: rgb(206, 17, 17)!important;
         z-index: 100;
     }
     .active .two{
         display: none;
     }
     .active .three{
-        transform: rotateZ(45deg) translate(-8px, -4px);
+        transform: rotateZ(45deg) translate(0, -2px);
+        background-color: #fff!important;
     }
 
     header .nav__list {
@@ -353,10 +354,11 @@ header .nav__list {
     }
 
     div.line {
-        width: 100%!important;
-        height: 2px!important;
+        width: 70%!important;
+        height: 3px!important;
         border-radius: 2px!important;
-        background: #fff!important;
+        background: rgb(2, 1, 1)!important;
+        transition: all 0.3s ease-out;
     }
 }
 
@@ -424,7 +426,6 @@ header .nav__list {
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center ;
-    margin-left: 6px;
 }
 
 .service h3 {
@@ -528,7 +529,6 @@ header .nav__list {
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     color: var(--clr-light);
     text-align: center;
-    margin-left: 6px;
     margin-bottom: 5rem;
 }
 
@@ -604,7 +604,6 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5rem 0;
-    margin-left: 6px;
 }
 
 .footer p {
