@@ -374,7 +374,7 @@ header .nav__list {
     position: relative;
     margin-bottom: 0;
     height: 100vh;
-    background: linear-gradient(-47deg, rgba(0, 0, 0, .6), rgba(148, 48, 48, .6), rgba(167, 67, 67, .95)), url('./img/20191213_172122.jpg') no-repeat center;
+    background: linear-gradient(-47deg, rgba(0, 0, 0, .6), rgba(148, 48, 48, .6), rgba(167, 67, 67, .95)), url('./img/20191213_172122.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -522,7 +522,7 @@ header .nav__list {
     } 
 
     .about-me__body p {
-        color: #fff;
+        color: #000;
     }
 
 }
