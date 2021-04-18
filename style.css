@@ -378,15 +378,30 @@ header .nav__list {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
+    display: flex;
+    align-items: start;
 }
 
 .intro__img {
     box-shadow: var(--bs);
-    border-radius: 0 0 12px 12pxgit;
+    border-radius: 0 0 12px 12px;
+}
+
+h2 .special {
+    color: orange;
 }
 
 .section__subtitle--intro{
     display: inline
+}
+
+.align-left {
+    color: white;
+    padding-top: 7rem;
+}
+
+.align-left .belief {
+    width: 560px;
 }
 
 @media (min-width: 600px){
