@@ -86,14 +86,14 @@ body {
 
 @media only screen and (min-width: 768px) {
     body {
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
         background-size: 400% 400%;
         animation: gradient 10s ease infinite;
     }
 
     /* background animation setup */
 
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -105,7 +105,7 @@ body {
     100% {
         background-position: 0% 50%;
     }
-}
+} */
 }
 
 
@@ -235,11 +235,11 @@ header {
     padding: 0.2em;
     display: flex;
     justify-content: space-between;
-    background: #ffff;
-    position: fixed;
+    background: rgba(255, 255, 255, .56);
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     z-index: 1000;
     align-items: center;
 }
@@ -373,6 +373,11 @@ header .nav__list {
 .intro {
     position: relative;
     margin-bottom: 0;
+    height: 100vh;
+    background: linear-gradient(-47deg, rgba(0, 0, 0, .6), rgba(148, 48, 48, .6), rgba(167, 67, 67, .95)), url('./img/20191213_172122.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
 }
 
 .intro__img {
@@ -385,7 +390,7 @@ header .nav__list {
 }
 
 @media (min-width: 600px){
-    .intro {
+    /* .intro {
         display: grid;
         width: min-content;
         margin: 0 auto;
@@ -395,7 +400,7 @@ header .nav__list {
         "img subtitle";
         grid-template-columns: min-content max-content;
         margin-top: 7rem;
-    }
+    } */
 
     .intro__img {
         grid-area: img;
