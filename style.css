@@ -401,22 +401,30 @@ h2 .special {
     padding-top: 7rem;
 }
 
+@media (max-width: 400px) {
+    .hello {
+        margin-top: 0!important;
+    }
+    .align-left {
+        padding-top: 0!important;
+        align-items: center!important;
+        margin: auto;
+    }
+
+    .belief {
+        text-align: justify;
+    }
+
+    .intro {
+        padding: 40px 20px!important;
+    } 
+}
+
 .align-left .belief {
     max-width: 560px;
 }
 
 @media (min-width: 600px){
-    /* .intro {
-        display: grid;
-        width: min-content;
-        margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas: 
-        "img title"
-        "img subtitle";
-        grid-template-columns: min-content max-content;
-        margin-top: 7rem;
-    } */
 
     .intro__img {
         grid-area: img;
