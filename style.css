@@ -64,6 +64,8 @@ body {
 .top {
     position: fixed;
     border-radius: 8px;
+    width: 30px;
+    height: 30px;
     bottom: 5px;
     right: 10px;
     box-shadow: var(--bs);
@@ -76,10 +78,10 @@ body {
     display: none;
 }
 
-.top a {
+a  {
     text-decoration: none;
     color: var(--clr-accent);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -254,13 +256,13 @@ flex-basis: 900px;
 header .nav__list {
     display: flex;
     justify-content: space-around;
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 .nav__link {
     color: inherit;
-    font-weight: var(--fw-bold);
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 500;
     text-decoration: none;
 } 
 
@@ -648,7 +650,6 @@ background-position: center center;
 
 .footer__link {
     font-weight: var(--fw-bold);
-    
 }
 
 .footer a {
