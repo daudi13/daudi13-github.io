@@ -132,6 +132,7 @@ section {
 }
 
 ul li {
+    position: relative;
     text-decoration: none;
     list-style: none;
 
@@ -145,6 +146,7 @@ html {
 
 #logo {
     width: 65px;
+    position: relative;
 }
 
 .btn {
@@ -235,16 +237,17 @@ header {
 
 @media only screen and (min-width: 900px){
     header {
-    padding: 0.2em;
+    padding: 6px 15px;
     display: flex;
     justify-content: space-between;
     background: rgba(255, 255, 255, .56);
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0; 
     z-index: 1000;
     align-items: center;
+    transition: 0.6s;
 }
 }
 
@@ -254,12 +257,14 @@ flex-basis: 900px;
 
 
 header .nav__list {
+    position: relative;
     display: flex;
     justify-content: space-around;
     flex-basis: 40%;
 }
 
 .nav__link {
+    position: relative;
     color: inherit;
     font-size: 20px;
     font-weight: 500;
