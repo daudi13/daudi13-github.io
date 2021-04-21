@@ -1,5 +1,5 @@
 window.addEventListener("scroll", function () {
-    let header = document.querySelector("header");
+    var header = document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0)
 })
 
