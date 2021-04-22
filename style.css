@@ -299,14 +299,14 @@ header .nav__list {
     }
 
     .nav {
-        width: 350px;
+        width: 100%;
         height: 100%;
         background: #262626;
         opacity: 0.95;
         position:fixed;
         top: 0;
-        right: -350px;
-        border-radius: 20% 0 0 60%;
+        right: -100%;
+        /* border-radius: 20% 0 0 60%; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -335,6 +335,7 @@ header .nav__list {
         flex-direction: column;
         justify-content: space-around;
         height: 80%;
+        text-align: center;
     }
 
     li .nav__link {
