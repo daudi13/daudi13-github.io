@@ -56,6 +56,10 @@ body {
     position: relative;
 }
 
+body.active {
+    overflow-y: hidden!important;
+}
+
 .top {
     background-attachment: scroll;
     position: relative;
