@@ -612,7 +612,13 @@ background-position: center center;
     margin: 0 auto;
 } 
 
-.portfolio-card
+
+.portfolio-card {
+    width: 250px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 @media only screen and (max-width: 600px) {
     .portfolio {
@@ -630,6 +636,7 @@ background-position: center center;
 .portfolio__item {
     margin-left: 10px;
     margin-bottom: 10px;
+    border-radius: 9px;
 }
 
 /* .portfolio__item:last-child {
@@ -645,14 +652,13 @@ background-position: center center;
 }
 
 .portfolio img {
-    height: 250px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
     border-radius: 9px;
 }
 
-.portfolio__img:hover {
-    transition: scale(1.2);
-    opacity: .75;
+.portfolio-card:hover img{
+    transform: scale(1.2);
 }
 
 /* footer */
