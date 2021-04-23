@@ -5,4 +5,4 @@ const body = document.querySelector("body")
 navIcon.addEventListener('click', () => {
     navBar.classList.toggle('active');
     body.classList.toggle('active');
-})
+});

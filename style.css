@@ -40,8 +40,6 @@
 /* general styles */
 
 body {
-
-    
     background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
