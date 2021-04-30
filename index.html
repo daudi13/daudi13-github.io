@@ -12,12 +12,19 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300, 500,900&display=swap"
             rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
 
         <!-- <link rel="stylesheet" href="style.css"> -->
         <link rel="stylesheet" href="style.css">
 
         <link rel="icon" href="./img/logo.svg" />
+
+        <!-- AOS CDN -->
+        <!-- CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -43,7 +50,7 @@
     <a  href="#top" title="go up" class="top"><i class="fas fa-chevron-up"></i></a>
     <!-- introduction -->
     <section class="intro" id="home!">
-            <div class="align-left animate__animated  animate__slideInDown" id="">
+            <div class="align-left" data-aos="fade-down">
                 <p class="hello">Hello, I am David,</p>
                 <h2 class="job-des">I'm a <br/> <span class="special ">Front-end Developer</span></h2>
                 <p class="belief">
@@ -157,6 +164,9 @@
 <p>copyright&copy;All rights reserved David Ouma</p>
 
 </footer>
+<script>
+    AOS.init();
+</script>
 
 <script src="./JS/index.js" defer></script>
 <script src="sticky.js" defer></script>
