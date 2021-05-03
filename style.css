@@ -6,6 +6,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    
 }
 
 :root {
@@ -57,6 +58,8 @@ body {
 body.active {
     overflow-y: hidden!important;
 }
+
+
 
 .top {
     background-attachment: scroll;
@@ -619,6 +622,10 @@ background-position: center center;
     height: 250px;
 }
 
+.porfolio-card:focus {
+    display: none;
+}
+
 @media only screen and (min-width: 600px){
     .portfolio-card + .portfolio-card {
     margin-bottom: 20px;
@@ -651,6 +658,10 @@ background-position: center center;
 } */
 .portfolio__item {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+}
+
+.portfolio a:focus {
+    display: none!important;
 }
 
 .portfolio__item :focus{
