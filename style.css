@@ -320,7 +320,7 @@ header .nav__list {
         right: 0%;
     }
 
-    /* .active .one{
+    .active .one{
         transform: rotateZ(-45deg) translate(-5px, 6px);
         background: rgb(206, 17, 17)!important;
         z-index: 100;
@@ -331,7 +331,7 @@ header .nav__list {
     .active .three{
         transform: rotateZ(45deg) translate(0, -2px);
         background-color: #fff!important;
-    } */
+    } 
 
     header .nav__list {
         flex-direction: column;
