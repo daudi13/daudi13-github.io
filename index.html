@@ -26,6 +26,8 @@
         <!-- JS -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+
 </head>
 <body>
     
@@ -33,15 +35,15 @@
         <div class="logo">
         <img src="./img/logo.svg" id="logo" alt="">
         </div>
-        <nav class="nav .navbar-collapse">
-        <div class="hamburger-menu">
+        <nav class="nav">
+        <div class="hamburger-menu" onclick="cancelIcon('100%')">
             <div class="line one"></div>
             <div class="line two"></div>
             <div class="line three"></div>
         </div>
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home!" id="home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services!" id="services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#home!" id="home" class="nav__link" >Home</a></li>
+                <li class="nav__item"><a href="#services!" id="services" class="nav__link" onclick="cancelNav('-100%')">My services</a></li>
                 <li class="nav__item"><a href="#about!" id="about" class="nav__link">About Me</a></li>
                 <li class="nav__item"><a href="#work!" id="work" class="nav__link">My Work</a></li>
             </ul>
@@ -168,12 +170,16 @@
 </script>
 
 <script>
-    
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
 </script>
+
+
 
 <script src="./JS/index.js" defer></script>
 <script src="sticky.js" defer></script>
-< src="/JS/cancel.js" defer></>
+
 
 </body>
 </html>
