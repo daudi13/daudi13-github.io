@@ -623,6 +623,7 @@ background-position: center center;
     position: relative;
     overflow: hidden;
     border-radius: 9px;
+    cursor: pointer;
 }
 
 .portfolio-card .portfolio-hover {
@@ -734,6 +735,7 @@ background-position: center center;
     box-shadow: 15px 25px 35px rgba(0, 0, 0, 0.4);
     color: #1c1c1c;
     cursor: pointer;
+    z-index: 1000;
 } 
 
 
