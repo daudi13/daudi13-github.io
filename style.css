@@ -737,6 +737,8 @@ background-position: center center;
     box-shadow: 15px 25px 35px rgba(0, 0, 0, 0.4);
     color: #1c1c1c;
     cursor: pointer;
+    outline: none;
+    border: 1px solid beige;
 } 
 
 
