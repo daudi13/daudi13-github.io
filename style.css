@@ -689,9 +689,7 @@ background-position: center center;
     display: none!important;
 }
 
-.portfolio__btn :focus{
-    display: none;
-}
+
 
 .portfolio img {
     height: 100%;
@@ -769,9 +767,9 @@ background-position: center center;
     color: inherit;
     text-decoration: none;
 }
-.footer a :focus{
+/* .footer a :focus{
     display: none;
-}
+} */
 .footer__link:hover,
 .social-list__item:hover {
     opacity: .75;
