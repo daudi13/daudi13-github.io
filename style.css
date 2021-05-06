@@ -127,10 +127,10 @@ strong {
     font-weight: var(--fw-bold);
 }
 
-:focus {
+/* :focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
-}
+} */
 
 section {
     padding:5em 2em;
@@ -767,9 +767,13 @@ background-position: center center;
     color: inherit;
     text-decoration: none;
 }
-/* .footer a :focus{
-    display: none;
-} */
+
+.links {
+    margin-top: 20px;
+}
+.links a + a {
+    margin-left: 30px;
+}
 .footer__link:hover,
 .social-list__item:hover {
     opacity: .75;
