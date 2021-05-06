@@ -301,6 +301,7 @@ header .nav__list {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        z-index: 10000;
     }
 
     .nav {
@@ -311,7 +312,6 @@ header .nav__list {
         position:fixed;
         top: 0;
         right: -100%;
-        /* border-radius: 20% 0 0 60%; */
         display: flex;
         justify-content: center;
         align-items: center;
