@@ -752,7 +752,7 @@ background-position: center center;
 
 .footer p {
     font-size: var(--fs-p);
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 0;
@@ -768,7 +768,15 @@ background-position: center center;
     text-decoration: none;
 }
 
-
+.footer__contacts {
+    padding-left: 50px;
+    margin: 20px auto;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 .footer__contacts i {
     margin-right: 15px;
@@ -780,6 +788,7 @@ background-position: center center;
 
 .links {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 .links a + a {
     margin-left: 30px;
