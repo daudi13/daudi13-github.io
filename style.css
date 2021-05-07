@@ -768,6 +768,16 @@ background-position: center center;
     text-decoration: none;
 }
 
+
+
+.footer__contacts i {
+    margin-right: 15px;
+}
+
+.footer__contacts a {
+    font-size: 15px;
+}
+
 .links {
     margin-top: 20px;
 }
@@ -801,6 +811,8 @@ background-position: center center;
 .social-list__item {
     padding: 0 .7em;
 }
+
+
 
 /* scrollbar */
 
