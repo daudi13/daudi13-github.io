@@ -285,6 +285,10 @@ header .nav__list {
     color: #111111;
 }
 
+.nav__link:active {
+    color: red;
+}
+
 
 
 
@@ -798,8 +802,8 @@ background-position: center center;
 
 .footer a:hover {
     text-decoration: underline;
-    color: white;
-    transform: scale(1.5);
+    color: rgb(230, 230, 176);
+    transform: scale(1.5)!important;
 }
 
 .social--list  {
