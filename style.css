@@ -799,6 +799,7 @@ background-position: center center;
 .footer a:hover {
     text-decoration: underline;
     color: white;
+    transform: scale(1.5);
 }
 
 .social--list  {
