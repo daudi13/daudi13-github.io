@@ -55,7 +55,7 @@
     left: -40px;
     height: calc(100vh + 80px);
     width: calc(100vw + 80px);
-    z-index: 1000;
+    z-index: 1000000;
     filter: blur(100px);
 }
 
