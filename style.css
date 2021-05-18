@@ -74,8 +74,13 @@ body.active {
     align-items: center;
     background: none repeat scroll 0 0 #ffffff;
     opacity: 1;
-    transition: .3s ease;
+    transition: .4s ease;
 } 
+
+.loading-txt {
+    font-size: 34px;
+    font-weight: 700;
+}
 
 
 .top {
