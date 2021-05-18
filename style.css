@@ -60,6 +60,23 @@ body.active {
 }
 
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw!important;
+    height: 100vh!important;
+    z-index: 9999999999!important;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #ffffff;
+    opacity: 0;
+    filter: blur(0px);
+} 
+
 
 .top {
     background-attachment: scroll;
