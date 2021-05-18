@@ -61,7 +61,7 @@ body.active {
 
 
 .preloader {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
@@ -73,8 +73,8 @@ body.active {
     justify-content: center;
     align-items: center;
     background: none repeat scroll 0 0 #ffffff;
-    opacity: 0;
-    filter: blur(0px);
+    opacity: 1;
+    transition: .3s ease;
 } 
 
 
