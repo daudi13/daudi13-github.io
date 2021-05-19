@@ -67,7 +67,7 @@ body.active {
     bottom: 0;
     width: 100vw!important;
     height: 100vh!important;
-    z-index: 9999999999!important;
+    z-index: 99!important;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
